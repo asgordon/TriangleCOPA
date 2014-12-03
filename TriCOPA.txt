@@ -698,9 +698,9 @@ b. The circle does not want to go into the room
 100. A circle knocks on the door. A triangle goes to the door, but hesitates to open it. Why does the triangle hesitate to open the door? 
 (and (outside' E1 C) (inside' E2 BT) (knock' E3 C D) (moveTo' E4 BT D) (seq E3 E4))
 a. The triangle hesitates to open the door because it is unsure if it wants to let the circle in.
-(conflicted' e5 C e6)
+(conflicted' e5 BT e6)
 b. The triangle hesitates to open the door because it is excited to see the circle.
-(excited' e7 C)
+(excited' e7 BT)
 
 
 
