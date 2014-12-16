@@ -12,13 +12,13 @@ In addition, TriangleCOPA includes logical formalizations of each question and a
 
 Details about these 100 questions and their logical encodings can be found in the following paper:
 
-> Maslan, N., Roemmele, M., and Gordon, A. (2015) One Hundred Challenge Problems for Logical Formalizations of Commonsense Psychology. Twelfth International Symposium on Logical Formalizations of Commonsense Reasoning (Commonsense-2015), March 23-25, 2015, Stanford, CA.
+* Maslan, N., Roemmele, M., and Gordon, A. (2015) One Hundred Challenge Problems for Logical Formalizations of Commonsense Psychology. Twelfth International Symposium on Logical Formalizations of Commonsense Reasoning (Commonsense-2015), March 23-25, 2015, Stanford, CA.
 
 # 2. Animations
 
 Included are 100 short movies in the style of the original Heider-Simmel film, involving the interactions between a big triangle, a small triangle, a circle in and around a box with a door. Each animation was created by Nicole Maslan using the "Heider-Simmel Interactive Theater" application, described in the following paper:
 
-> Gordon, A. and Roemmele, M. (2014) An Authoring Tool for Movies in the Style of Heider and Simmel. In A. Mitchell et al. (Eds.): International Conference on Interactive Digital Storytelling, Singapore, November 3-6, 2014 (ICIDS-2014), LNCS 8832, pp. 49--60. Springer International Publishing Switzerland (2014).
+* Gordon, A. and Roemmele, M. (2014) An Authoring Tool for Movies in the Style of Heider and Simmel. In A. Mitchell et al. (Eds.): International Conference on Interactive Digital Storytelling, Singapore, November 3-6, 2014 (ICIDS-2014), LNCS 8832, pp. 49--60. Springer International Publishing Switzerland (2014).
  
 Each line of TriCOPA-animations.csv contains the data for an animation that depicts the premise of a TriCOPA question. Each line is a CSV (comma-separated) row with the following columns:
 
