@@ -1,4 +1,4 @@
-Heider-COPA : One Hundred Challenge Problems for Formal Theories of Commonsense Psychology
+Triangle-COPA : One Hundred Challenge Problems for Formal Theories of Commonsense Psychology
 Nicole Maslan, Melissa Roemmele, Andrew S. Gordon
 Summer 2014
 
@@ -10,18 +10,18 @@ b. The big triangle is happy to see the circle.
 (and (happyThat' e4 BT e5) (see' e5 BT C))
 
 2. The triangle saw the circle and started shaking. Why did the triangle start shaking? 
-(and (approach' E1 C BT) (shake' E2 BT) (seq E1 E2))
+(and (approach' E1 C LT) (shake' E2 LT) (seq E1 E2))
 a. The triangle is upset.
-(unhappy' e3 BT)
+(unhappy' e3 LT)
 b. The triangle is scared.
-(afraid' e4 BT)
+(afraid' e4 LT)
 
 3. A triangle ignores a circle. Why? 
-(and (ignore' e1 BT C))
+(and (ignore' e1 LT C))
 a. The triangle is annoyed with the circle. 
-(and (annoy' e2 C BT))
+(and (annoy' e2 C LT))
 b. The triangle is happy to see the circle. 
-(and (happyThat' e3 BT e4) (see' e4 BT C))
+(and (happyThat' e3 LT e4) (see' e4 LT C))
 
 4. A triangle knocks on the door. The circle opens the door, sees the triangle, and shuts the door. Why does the circle shut the door? 
 (and (inside' E1 C) (outside' E2 BT) (knock' E3 BT D) (open' E4 C D) (close' E5 C D) (seq E3 E4 E5))
@@ -52,7 +52,7 @@ b. The circle is curious.
 (curious' e5 C)
 
 8. The circle punched the triangle. Why? 
-(and (hit' E1 C BT))
+(and (hit' E1 C LT))
 a. The circle is angry. 
 (and (angry' E2 C))
 b. The circle is happy. 
@@ -101,28 +101,28 @@ b. The circle is excited to see the triangle.
 (and (see' e1 C BT) (excitedThat' e2 C e1))
 
 15. A circle is alone in the corner of the room. A triangle hugs the circle. Why does the triangle hug the circle? 
-(and (inside' E1 C) (approach' E2 BT C) (hug' E3 BT C) (seq E1 E2 E3))
+(and (inside' E1 C) (approach' E2 LT C) (hug' E3 LT C) (seq E1 E2 E3))
 a. The triangle is angry at the circle. 
-(and (angryAt' e4 BT C))
+(and (angryAt' e4 LT C))
 b. The triangle wants to console the circle. 
-(and (console' e5 BT C) (goal' e6 e5 BT))
+(and (console' e5 LT C) (goal' e6 e5 LT))
 
 16. A circle chases after a triangle and taps the triangle. The circle then runs the opposite way and the triangle chases the circle. Why does the circle tap the triangle?  
-(and (chase' E1 C BT) (poke' E2 C BT) (chase' E3 BT C) (seq E1 E2 E3))
+(and (chase' E1 C LT) (poke' E2 C LT) (chase' E3 LT C) (seq E1 E2 E3))
 a. The circle is angry at the triangle, and runs after it to attack it. 
-(and (angryAt' e4 C BT) (goal' e5 e6 C) (attack' e6 C BT))
+(and (angryAt' e4 C LT) (goal' e5 e6 C) (attack' e6 C LT))
 b. The circle and the triangle are playing the game, tag. 
-(playWith' e9 C BT)
+(playWith' e9 C LT)
 
 17.  A circle chases after a triangle and punches the triangle. The circle then runs the opposite way and the triangle chases the circle. Why does the circle punch the triangle? 
-(and (chase' E1 C BT) (hit' E2 C BT) (chase' E3 BT C) (seq E1 E2 E3))
+(and (chase' E1 C LT) (hit' E2 C LT) (chase' E3 LT C) (seq E1 E2 E3))
 a. The circle is angry at the triangle.
-(and (angryAt' e4 C BT))
+(and (angryAt' e4 C LT))
 b. The circle is being playful with the triangle. 
-(and (playWith' e5 C BT))
+(and (playWith' e5 C LT))
  
 18. A triangle knocks on the door and the circle inside the house starts moving quickly towards the door. Why? 
-(and (knock' E1 BT D) (outside' E2 BT) (approach' E3 C D) (inside' E4 C) (seq E1 E3))
+(and (knock' E1 LT D) (outside' E2 LT) (approach' E3 C D) (inside' E4 C) (seq E1 E3))
 a. The circle wants to attack the door.
 (and (goal' e4 e5 C) (attack' e5 C D))
 b. The circle wants to open the door. 
@@ -150,18 +150,18 @@ b. They are saying goodbye.
 (and (goodbye' e8 C BT) (goodbye' e9 BT C))
 
 22. The triangle roamed around the house. Why was the triangle roaming? 
-(and (roam' E1 BT) (inside' E2 BT))
+(and (roam' E1 LT) (inside' E2 LT))
 a. The triangle was searching for something.
-(and (knowledgeGoal' e3 e4 BT) (atLoc' e4 e5 e6))
+(and (knowledgeGoal' e3 e4 LT) (atLoc' e4 e5 e6))
 b. The triangle was trying to leave the house.
-(and (exit' e7 BT) (goal' e8 e7 BT))
+(and (exit' e7 BT) (goal' e8 e7 LT))
 
 23. A circle is standing still. A triangle approaches from the opposite direction and then stops. The circle turns around. Why does the circle turn around? 
-(and (approach' E1 BT C) (turn' E2 C) (seq E1 E2))
+(and (approach' E1 LT C) (turn' E2 C) (seq E1 E2))
 a. The circle turns around to attack the triangle.
-(and (goal' e3 e4 C) (attack' e4 C BT))
+(and (goal' e3 e4 C) (attack' e4 C LT))
 b. The circle heard the triangle approaching.
-(and (hear' e5 C e6) (approach' e6 BT C))
+(and (hear' e5 C e6) (approach' e6 LT C))
 
 24. A triangle moves towards the circle and the circle starts waving. The triangle waves and keeps moving forward. Why are the circle and triangle waving? 
 (and (approach' E1 BT C) (wave' E2 C) (wave' E3 BT) (seq E1 E2 E3))
@@ -171,18 +171,18 @@ b. The circle and triangle are waving because they know each other.
 (and (acquaintance' e6 C BT) (acquaintance' e7 BT C))
 
 25. A triangle and a circle are facing each other and start waving. Then the circle turns and strolls the opposite way. What is happening? 
-(and (atLoc' E1 C x) (atLoc' E2 BT x) (wave' E3 C) (wave' E4 BT) (par' E5 E3 E4) (leave' E6 C BT) (seq E5 E6))
+(and (atLoc' E1 C x) (atLoc' E2 LT x) (wave' E3 C) (wave' E4 LT) (par' E5 E3 E4) (leave' E6 C LT) (seq E5 E6))
 a. The circle and triangle are saying goodbye to each other.
-(and (goodbye' e6 C BT) (goodbye' e7 BT C))
+(and (goodbye' e6 C LT) (goodbye' e7 LT C))
 b. The circle and triangle are greeting each other.
-(and (greet' e8 C BT) (greet' e9 BT C))
+(and (greet' e8 C LT) (greet' e9 LT C))
 
 26. A triangle is limping. A circle appears and runs towards the triangle. Why does the circle run towards the triangle? 
-(and (limp' E1 BT) (approach' E2 C BT) (seq E1 E2))
+(and (limp' E1 LT) (approach' E2 C LT) (seq E1 E2))
 a. The circle runs to help the triangle.
-(and (goal' e3 e4 C) (help' e4 C BT))
+(and (goal' e3 e4 C) (help' e4 C LT))
 b. The circle wants to say hello to the triangle.
-(and (goal' e5 e6 C) (greet' e6 C BT))
+(and (goal' e5 e6 C) (greet' e6 C LT))
 
 27. There are a small triangle and a big triangle walking together. A circle starts running towards the small triangle. The big triangle then blocks the circle. Why does the big triangle do this? 
 (and (accompany' E1 LT BT) (approach' E2 C LT) (block' E3 BT C) (seq E1 E2 E3)) 
@@ -192,25 +192,25 @@ b. The big triangle wants to protect the small triangle.
 (and (defend' e6 BT LT) (goal' e7 e6 BT))
 
 28. The triangle saw the circle approaching and bolted the opposite way. Why did the triangle bolt? 
-(and (approach' E1 C BT) (bolt' E2 BT) (seq E1 E2))
+(and (approach' E1 C LT) (bolt' E2 LT) (seq E1 E2))
 a. The triangle wants to greet the circle.
-(and (greet' e4 BT C) (goal' e5 e4 BT))
+(and (greet' e4 LT C) (goal' e5 e4 LT))
 b. The triangle does not want to interact with the circle.
-(and (avoid' e6 BT C) (goal' e7 e6 BT))
+(and (avoid' e6 LT C) (goal' e7 e6 LT))
 
 29. The triangle is moving away from the circle. Why is the triangle moving away? 
-(and (escape' E1 BT C))
+(and (escape' E1 LT C))
 a. The triangle does not want to be near the circle.
-(and (goal' e2 e3 BT) (avoid' e3 BT C))
+(and (goal' e2 e3 LT) (avoid' e3 LT C))
 b. The triangle wants the circle to follow it.
-(and (follow' e4 C BT) (goal' e5 BT e4))
+(and (follow' e4 C LT) (goal' e5 LT e4))
 
 30. The triangle blocked the circle from entering the building. Why? 
-(and (approach' E1 C D) (outside' E2 C) (block' E3 BT C) (seq E1 E2))
+(and (approach' E1 C D) (outside' E2 C) (block' E3 LT C) (seq E1 E2))
 a. The triangle wants the circle to enter the building.
-(and (enter' e3 C) (goal' e4 e3 BT))
+(and (enter' e3 C) (goal' e4 e3 LT))
 b. The triangle does not want the circle to enter the building.
-(and (enter' e5 C) (goal' e6 e7 BT) (prevent' e7 BT e5))
+(and (enter' e5 C) (goal' e6 e7 LT) (prevent' e7 LT e5))
 
 31. Two triangles talk to each other and then hug. Why? 
 (and (talkTo' E1 BT LT) (hug' E2 BT LT) (seq E1 E2))
@@ -220,11 +220,11 @@ b. The triangles are enemies.
 (and (enemies' e4 BT LT))
 
 32. A circle and a triangle are in the room. The circle starts toward the door and the triangle clings to the circle. Why is the triangle clinging to the circle? 
-(and (approach' E1 C D) (pull' E2 BT C) (par' E3 E1 E2) (inside' E4 C))
+(and (approach' E1 C D) (pull' E2 LT C) (par' E3 E1 E2) (inside' E4 C))
 a. The triangle is trying to rob the circle.
-(and (rob' e5 BT C) (goal' e6 e5 BT))
+(and (rob' e5 LT C) (goal' e6 e5 LT))
 b. The triangle likes the circle and does not want it to leave.
-(and (like' e7 BT C) (goal' e8 e9 BT) (prevent' e9 BT e10) (exit' e10 C))
+(and (like' e7 LT C) (goal' e8 e9 LT) (prevent' e9 LT e10) (exit' e10 C))
 
 33. A little triangle and a circle are arguing. A big triangle goes between the two shapes and pushes them apart from each other. Why does the big triangle do this? 
 (and (argueWith' E1 LT C) (push' E2 BT LT) (push' E3 BT C) (seq E1 E2 E3))
@@ -290,11 +290,11 @@ b. The small triangle is the parent of the big triangle.
 (parent' e3 LT BT)
  
 42.  A triangle comes to the door. The circle opens the door, hugs the triangle and then they both go into the house. Why does the circle hug the triangle? 
-(and (approach' E1 BT D) (outside' E2 BT) (open' E3 C D) (inside' E4 C) (hug' E5 C BT) (enter' E6 BT) (accompany' E7 C BT) (seq E1 E3 E5 E6 E7))
+(and (approach' E1 LT D) (outside' E2 LT) (open' E3 C D) (inside' E4 C) (hug' E5 C LT) (enter' E6 LT) (accompany' E7 C LT) (seq E1 E3 E5 E6 E7))
 a. The circle likes the triangle.
-(like' e8 C BT) 
+(like' e8 C LT) 
 b. The circle does not like the triangle. 
-(dislike' e9 C BT)
+(dislike' e9 C LT)
 
 43. The triangle was limping. Why?
 (and (limp' E1 LT))
