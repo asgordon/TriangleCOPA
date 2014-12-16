@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN"
+ "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+
+<svg width="100%" height="100%" data-setup="box-bt-lt-c" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 4000 3000" style="background-color: #D0D0D0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">>
+  <rect x="0" y="0" width="4000" height="3000" fill="White">
+  </rect>
+  <polygon class="draggable recordable" points="-250,144.34 0,-288.68 250,144.34" fill="Black" transform="translate(3540,2100)" data-character-name="bigTriangle" data-dragstyle="slippery" data-slip-radius="100">
+  </polygon>
+  <polygon class="draggable recordable" points="-190,115 0,-214 190,115" fill="Black" transform="translate(3540,1400)" data-character-name="littleTriangle" data-dragstyle="slippery" data-slip-radius="60">
+  </polygon>
+  <circle class="draggable recordable" cx="0" cy="0" r="170" fill="Black" transform="translate(3540,700)" data-character-name="circle" data-dragstyle="slippery" data-slip-radius="10">
+  </circle>
+  <g class="box">
+    <line class="draggable recordable" stroke="Black" x1="0" y1="-800" x2="0" y2="0" stroke-width="90.5" transform="translate(1573,1430) rotate (10)" data-character-name="door" data-dragstyle="rotate" data-rotate-above="195" data-rotate-below="165" data-fixed-x="1573" data-fixed-y="1430">
+    </line>
+    <line stroke="Black" x1="400" y1="2435" x2="1600" y2="2435" stroke-width="90.5" data-character-name="bottomWall">
+    </line>
+    <line stroke="Black" x1="424" y1="545" x2="424" y2="2480" stroke-width="90.5" data-character-name="leftWall">
+    </line>
+    <line stroke="Black" x1="1573" y1="2480" x2="1573" y2="1410" stroke-width="90.5" class="rightWall">
+    </line>
+    <line stroke="Black" x1="400" y1="590" x2="1618" y2="590" stroke-width="90.5" class="topWall">
+    </line>
+  </g>
+</svg>
