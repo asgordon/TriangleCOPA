@@ -2,7 +2,7 @@ TriangleCOPA
 ============
 TriangleCOPA is a set of 100 animations, questions, and texts based on the original Heider-Simmel film, involving the interactions between a big triangle, a small triangle, a circle in and around a box with a door. It serves as a development dataset and integrated evaluation of automated perception, interpretation, and narration. 
 
-# 1. Interpretation Questions
+## 1. Interpretation Questions
 
 The term COPA is an acronym for "Choice of Plausible Alternatives," referring to a style of question for use in evaluating commonsense reasoning systems. Each question consists of a given premise and question, and two plausible alternatives - one of which is consistently selected by people. 
 
@@ -14,7 +14,7 @@ Details about these 100 questions and their logical encodings can be found in th
 
 * Maslan, N., Roemmele, M., and Gordon, A. (2015) One Hundred Challenge Problems for Logical Formalizations of Commonsense Psychology. Twelfth International Symposium on Logical Formalizations of Commonsense Reasoning (Commonsense-2015), March 23-25, 2015, Stanford, CA.
 
-# 2. Animations
+## 2. Animations
 
 Included are 100 short movies in the style of the original Heider-Simmel film, involving the interactions between a big triangle, a small triangle, a circle in and around a box with a door. Each animation was created by Nicole Maslan using the "Heider-Simmel Interactive Theater" application, described in the following paper:
 
@@ -32,6 +32,6 @@ The rest of the columns contain the position and rotation data for each shape in
 
 An SVG file (TriCOPA-stage.svg) is included as a reference for character and stage geometry.
 
-# 3. Narrations
+## 3. Narrations
 
 Included are 100 short textual narratives of each movie that align with the correct interpretation in each TriCOPA question, written by Nicole Maslan.
