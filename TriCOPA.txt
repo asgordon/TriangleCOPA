@@ -325,11 +325,11 @@ b. The triangle wants something from the circle.
 (and (possess' e3 C x) (possess' e4 BT x) (goal' e5 e4 BT))
 
 47. The triangle creeps up on the circle. Why does the triangle do this? 
-(and (creepUpOn' E1 BT C))
+(and (creepUpOn' E1 LT C))
 a. The triangle is trying to get away from the circle.
-(and (escape' e2 BT C) (goal' e3 e2 BT))
+(and (escape' e2 LT C) (goal' e3 e2 LT))
 b. The triangle does not want to be seen by the circle.
-(and (see' e4 C BT) (goal' e6 e5 BT) (not' e5 e4))
+(and (see' e4 C LT) (goal' e6 e5 LT) (not' e5 e4))
 
 48. The triangle runs towards the circle and then hugs the circle. Why does the triangle run? 
 (and (run' E1 BT) (approach' E2 BT C) (par' E3 E1 E2) (hug' E4 BT C) (seq E3 E4))
@@ -346,11 +346,11 @@ b. The circle agrees with the triangle.
 (disagree' e3 C LT)
 
 50. The triangle creeps into the house. A circle moves in the corner. The triangle bolts out of the house. Why does the triangle bolt out of the house?
-(and (enter' E1 LT) (creep' E2 LT) (par' E3 E1 E2) (moveTo' E4 C CORNER) (exit' E5 LT) (bolt' E6 LT) (par' E7 E5 E6) (seq E3 E4 E7))
+(and (enter' E1 BT) (creep' E2 BT) (par' E3 E1 E2) (moveTo' E4 C CORNER) (exit' E5 LT) (bolt' E6 BT) (par' E7 E5 E6) (seq E3 E4 E7))
 a. The triangle did not want the circle to see it in the house.
-(and (see' e8 C LT) (not' e9 e8) (goal' e10 e9 LT))
+(and (see' e8 C BT) (not' e9 e8) (goal' e10 e9 BT))
 b. The triangle wants to be in the house with the circle.
-(and (accompany' e11 LT C) (goal' e12 e11 LT))
+(and (accompany' e11 BT C) (goal' e12 e11 BT))
 
 51. A small triangle and a big triangle are fighting. A circle approaches and attacks the small triangle. What are the intentions of the circle? 
 (and (fight' E1 LT BT) (fight' E2 BT LT) (par' E3 E1 E2) (approach' E4 C LT) (fight' E5 C LT) (seq E3 E4 E5))
@@ -416,11 +416,11 @@ b. They have a lot of energy.
 (and (energized' e7 LT) (energized' e8 BT))
 
 60. A triangle is alone. A circle approaches the triangle and begins to flirt with it. The triangle evades the circle. Why does the triangle evade the circle? 
-(and (flirtWith' E1 C LT) (avoid' E2 LT C) (seq E1 E2))
+(and (flirtWith' E1 C BT) (avoid' E2 BT C) (seq E1 E2))
 a. The triangle wants the circle to follow it.
-(and (follow' e3 C LT) (goal' e4 e3 LT))
+(and (follow' e3 C BT) (goal' e4 e3 BT))
 b. The triangle does not want to be with the circle.
-(dislike' e5 LT C)
+(dislike' e5 BT C)
 
 61. A big triangle and a small triangle are arguing. The small triangle hits the big triangle. The big triangle picks up the little triangle and starts carrying the little triangle to the building. Why? 
 (and (argueWith' E1 BT LT) (hit' E2 LT BT) (pull' E3 BT LT) (seq E1 E2 E3))
@@ -626,11 +626,11 @@ b. The circle feels relieved.
 (relief' e5 C e6)
 
 90. A triangle bumps into a circle and then runs away. Why did the triangle bump into the circle?  
-(and (push' E1 BT C) (escape' E2 BT C) (seq E1 E2))
+(and (push' E1 LT C) (escape' E2 LT C) (seq E1 E2))
 a. The triangle greeted the circle.
-(and (goal' e3 e4 BT) (greet' e4 BT C))
+(and (goal' e3 e4 LT) (greet' e4 LT C))
 b. The triangle robbed the circle.
-(and (goal' e5 e6 BT) (rob' e6 BT C))
+(and (goal' e5 e6 LT) (rob' e6 LT C))
 
 91. A triangle is meandering around the house. Why is the triangle meandering? 
 (and (meander' E1 LT) (inside' E2 LT))
@@ -696,11 +696,11 @@ b. The circle does not want to go into the room
 (and (enter' e4 C) (goal' e5 e4 C) (not' e6 e5))
 
 100. A circle knocks on the door. A triangle goes to the door, but hesitates to open it. Why does the triangle hesitate to open the door? 
-(and (outside' E1 C) (inside' E2 BT) (knock' E3 C D) (moveTo' E4 BT D) (seq E3 E4))
+(and (outside' E1 C) (inside' E2 LT) (knock' E3 C D) (moveTo' E4 LT D) (seq E3 E4))
 a. The triangle hesitates to open the door because it is unsure if it wants to let the circle in.
-(conflicted' e5 BT e6)
+(conflicted' e5 LT e6)
 b. The triangle hesitates to open the door because it is excited to see the circle.
-(excited' e7 BT)
+(excited' e7 LT)
 
 
 
