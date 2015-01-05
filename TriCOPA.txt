@@ -17,7 +17,7 @@ b. The triangle is scared.
 (afraid' e4 LT)
 
 3. A triangle ignores a circle. Why? 
-(and (ignore' e1 LT C))
+(and (ignore' E1 LT C))
 a. The triangle is annoyed with the circle. 
 (and (annoy' e2 C LT))
 b. The triangle is happy to see the circle. 
