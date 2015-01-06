@@ -143,7 +143,7 @@ b. The circle forgot something in the house.
 (and (atLoc' e7 INSIDE) (forgotToDo' e8 C e7))
 
 21. The triangle and circle are next to each other. They both start nodding. Why are they nodding? 
-(and (atLoc' E1 BT x) (atLoc' E2 C x) (nod' E3 BT) (nod' E4 C) (par' E5 E3 E4))
+(and (atLoc' E1 BT OUTSIDE) (atLoc' E2 C OUTSIDE) (nod' E3 BT) (nod' E4 C) (par' E5 E3 E4))
 a. They are in agreement with each other.
 (and (agree' e6 C BT) (agree' e7 BT C))
 b. They are saying goodbye.
