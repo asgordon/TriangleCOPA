@@ -171,7 +171,7 @@ b. The circle and triangle are waving because they know each other.
 (and (acquaintance' e6 C BT) (acquaintance' e7 BT C))
 
 25. A triangle and a circle are facing each other and start waving. Then the circle turns and strolls the opposite way. What is happening? 
-(and (atLoc' E1 C x) (atLoc' E2 LT x) (wave' E3 C) (wave' E4 LT) (par' E5 E3 E4) (leave' E6 C LT) (seq E5 E6))
+(and (atLoc' E1 C OUTSIDE) (atLoc' E2 LT OUTSIDE) (wave' E3 C) (wave' E4 LT) (par' E5 E3 E4) (leave' E6 C LT) (seq E5 E6))
 a. The circle and triangle are saying goodbye to each other.
 (and (goodbye' e6 C LT) (goodbye' e7 LT C))
 b. The circle and triangle are greeting each other.
