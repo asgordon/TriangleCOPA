@@ -486,7 +486,7 @@ b. The triangle is limping because it has always had a limp.
 (disabled' e4 LT)
 
 70.  A small triangle and a circle stand outside the room. A big triangle comes outside and all three of the shapes begin strolling together. Why were the small triangle and the circle standing outside the room? 
-(and (outside' e1 LT) (outside' e2 C) (exit' E3 BT) (stroll' E4 LT) (accompany' E5 BT LT) (accompany' E6 C LT) (par' E7 E4 E5 E6) (seq E3 E7))
+(and (outside' E1 LT) (outside' E2 C) (exit' E3 BT) (stroll' E4 LT) (accompany' E5 BT LT) (accompany' E6 C LT) (par' E7 E4 E5 E6) (seq E3 E7))
 a. The small triangle and the circle were standing outside of the room because they were tired of strolling.
 (and (exhausted' e8 LT) (exhausted' e9 C))
 b. The small triangle and the circle were waiting for the big triangle to join them.
