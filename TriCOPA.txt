@@ -346,7 +346,7 @@ b. The circle agrees with the triangle.
 (disagree' e3 C LT)
 
 50. The triangle creeps into the house. A circle moves in the corner. The triangle bolts out of the house. Why does the triangle bolt out of the house?
-(and (enter' E1 BT) (creep' E2 BT) (par' E3 E1 E2) (moveTo' E4 C CORNER) (exit' E5 LT) (bolt' E6 BT) (par' E7 E5 E6) (seq E3 E4 E7))
+(and (enter' E1 BT) (creep' E2 BT) (par' E3 E1 E2) (moveTo' E4 C CORNER) (exit' E5 BT) (bolt' E6 BT) (par' E7 E5 E6) (seq E3 E4 E7))
 a. The triangle did not want the circle to see it in the house.
 (and (see' e8 C BT) (not' e9 e8) (goal' e10 e9 BT))
 b. The triangle wants to be in the house with the circle.
