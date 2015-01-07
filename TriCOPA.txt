@@ -521,7 +521,7 @@ b. The big triangle is excited and happy.
 (and (excited' e9 BT) (happy' e10 BT))
 
 75.  A triangle is alone in the house not moving. A circle enters the door of the house and nudges the triangle. The triangle starts moving around. What just happened? 
-(and (inside' E1 LT) (enter' E2 C) (poke' E3 C LT) (stroll' e2 LT) (seq E2 E3 E4)) 
+(and (inside' E1 LT) (enter' E2 C) (poke' E3 C LT) (stroll' E4 LT) (seq E2 E3 E4)) 
 a. The circle just broke into the house and is assaulting the triangle. 
 (attack' e5 C LT)
 b. The circle just woke up the triangle.
