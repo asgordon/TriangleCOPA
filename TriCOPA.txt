@@ -689,7 +689,7 @@ b. The small triangle is sad.
 (unhappy' e3 LT)
 
 99. The circle knocks on the door. Why does the circle knock on the door? 
-(and (knock' e1 C D))
+(and (knock' E1 C D))
 a. The circle wants to enter the room.
 (and (enter' e2 C) (goal' e3 e2 C))
 b. The circle does not want to go into the room
