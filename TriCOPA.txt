@@ -474,7 +474,7 @@ b. The circle feels afraid.
 68. A big triangle, small triangle, and circle are in the house. The big triangle and the circle each kiss the small triangle, wave, and then leave the room. How are the shapes related? 
 (and (inside' E1 BT) (inside' E2 LT) (inside' E3 C) (kiss' E4 BT LT) (kiss' E5 C LT) (wave' E6 BT) (wave' E7 C) (par' E8 E6 E7) (exit' E9 C) (exit' E10 BT) (seq E4 E5 E8 E9 E10))
 a. The big triangle and the circle are parents of the small triangle.
-(and (parent' e11 BT LT) (parent' e12 C LT)
+(and (parent' e11 BT LT) (parent' e12 C LT))
 b. The big triangle and the small triangle are parents of the circle. 
 (and (parent' e13 BT C) (parent' e14 LT C))
 
