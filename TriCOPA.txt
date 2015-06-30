@@ -54,9 +54,9 @@ b. The circle is curious.
 8. The circle punched the triangle. Why? 
 (and (hit' E1 C LT))
 a. The circle is angry. 
-(and (angry' E2 C))
+(and (angry' e2 C))
 b. The circle is happy. 
-(and (happy' E3 C))
+(and (happy' e3 C))
 
 9. A circle is continually poking the small triangle. The small triangle punches the circle. Why does the triangle do this? 
 (and (poke' E1 C LT) (poke' E2 C LT) (poke' E3 C LT) (hit' E4 LT C) (seq E1 E2 E3 E4))
