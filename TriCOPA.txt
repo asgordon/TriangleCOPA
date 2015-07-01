@@ -432,9 +432,9 @@ b. The big triangle is kidnapping the small triangle.
 62. A little triangle starts flirting with a big triangle. A circle approaches and pushes the little triangle. Why does the circle do this? 
 (and (flirtWith' E1 LT BT) (approach' E2 C LT) (push' E3 C LT) (seq E1 E2 E3))
 a. The circle does this because it does not want the little triangle to flirt with the big triangle.
-(and (goal' E4 E5 C) (prevent' E5 C E1))
+(and (goal' e4 e5 C) (prevent' e5 C E1))
 b. The circle does this because it wants the little triangle to continue flirting with the big triangle.
-(goal' E6 E1 C)
+(goal' e6 E1 C)
 
 63. A small triangle knocks on the door. A circle opens the door and the triangle begins to argue with the circle. After a little while, the nod and then hug each other. Why do they end up hugging? 
 (and (knock' E1 LT D) (outside' E2 LT) (open' E3 C D) (inside' E4 C) (argueWith' E5 C LT) (nod' E6 LT) (nod' E7 C) (par' E8 E6 E7) (hug' E9 C LT) (seq E1 E3 E5 E8 E9))
