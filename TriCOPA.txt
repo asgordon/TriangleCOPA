@@ -516,7 +516,7 @@ b. The big triangle is trying to befriend the little triangle.
 74.  A big triangle and circle are arguing outside the room. The big triangle leaves and goes into the room and starts to punch the walls. Why does the big triangle punch the walls? 
 (and (outside' E1 BT) (outside' E2 LT) (argueWith' E3 BT LT) (enter' E4 BT) (hit' E5 BT B) (seq E3 E4 E5))
 a. The big triangle is trying to get out its frustration by punching the walls.
-(and (angry' E6 BT) (not' E7 E6) (goal' E8 E7 BT))
+(and (angry' e6 BT) (not' e7 e6) (goal' e8 e7 BT))
 b. The big triangle is excited and happy. 
 (and (excited' e9 BT) (happy' e10 BT))
 
