@@ -397,9 +397,9 @@ b. The big triangle wants the circle to keep antagonizing the small triangle.
 57. The circle bothers the small triangle. A big triangle approaches and begins to argue with the circle. What is the relationship between the small and big triangle? 
 (and (bother' e1 C LT) (approach' e2 BT C) (argueWith' e3 BT C) (seq e1 e2 e3))
 a. The small triangle is the parent of the big triangle.
-(and (parent' e4 LT BT))
+(parent' e4 LT BT)
 b. The big triangle is the parent of the small triangle.
-(and (parent' e5 BT LT))
+(parent' e5 BT LT)
 
 58. A circle and a triangle are in the house and are arguing. The circle punches the triangle. The triangle runs out of the house. Why does the triangle leave the house? 
 (and (argueWith' E1 C LT) (inside' E2 C) (inside' E3 LT) (hit' E4 C LT) (exit' E5 LT) (seq E1 E4 E5))
