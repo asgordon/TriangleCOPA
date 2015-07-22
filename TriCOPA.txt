@@ -248,7 +248,7 @@ b. The circle is exhausted from running.
 (exhausted' e6 C)
 
 36. A big triangle, circle, and little triangle stroll around together. How are these shapes related to each other? 
-(and (stroll' E1 BT) (accompany' E1 C BT) (accompany' E2 LT BT) (par' E4 E1 E2 E3))
+(and (stroll' E1 BT) (accompany' E2 C BT) (accompany' E3 LT BT) (par' E4 E1 E2 E3))
 a. The big triangle and circle are siblings and the little triangle is the parent.
 (and (sibling' e5 BT C) (sibling' e6 C BT) (parent' e7 LT BT) (parent' e8 LT C))
 b.  The big triangle and the circle are parents and the little triangle is their child.
