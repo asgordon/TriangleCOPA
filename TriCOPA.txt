@@ -140,7 +140,7 @@ b. The triangle is upset to see the circle.
 a. The circle is going back into the house to sleep.
 (and (goal' e4 e5 C) (asleep' e5 C) (tired' e6 C))
 b. The circle forgot something in the house.
-(and (atLoc' e7 INSIDE) (forgotToDo' e8 C e7))
+(and (atLoc' e7 e8 INSIDE) (forgotToDo' e9 C e8))
 
 21. The triangle and circle are next to each other. They both start nodding. Why are they nodding? 
 (and (atLoc' E1 BT OUTSIDE) (atLoc' E2 C OUTSIDE) (nod' E3 BT) (nod' E4 C) (par' E5 E3 E4))
