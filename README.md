@@ -35,3 +35,23 @@ An SVG file (TriCOPA-stage.svg) is included as a reference for character and sta
 ## 3. Narrations
 
 Included are 100 short textual narratives of each movie that align with the correct interpretation in each TriCOPA question, written by Nicole Maslan.
+
+
+## 4. Charades-datasets
+
+If it were possible to automatically recognize humanlike actions in the animation data, then one could develop a system that answered TriangleCOPA questions given only the object trajectories as input. The following papers describe a supervised machine learning approach to this problem.
+
+* Roemmele, M., Morgens, S., Gordon, A., and Morency, L. (2016) Recognizing Human Actions in the Motion Trajectories of Shapes. Proceedings of ACM Intelligent User Interfaces, March 7-10, 2016, Sonoma, CA.
+* Roemmele, M., Archer-McClellan, H., and Gordon, A. (2014) Triangle Charades: A Data-Collection Game for Recognizing Actions in Motion Trajectories. 2014 International Conference on Intelligent User Interfaces, February 24-27, 2014, Haifa, Israel.
+
+Included here are the training and test datasets collected as part of this research.
+
+In each dataset folder (OneCharacterData and TwoCharacterData) are the training and testing files for that dataset (performances.train and performances.test). Each file is in CSV format, with one animation per line. For each animation, the following columns are given:
+
+* Performance ID: unique numerical ID for each animation
+* Performance Label ID: action label for that animation (appears as string)
+* Shape Names: index numbers associated with each shape (For 1-character data, there is only one shape, so X1, Y1, R1 always refer to bigTriangle; for 2-character data, shape1 with trajectory data X1, Y1, R1 is bigTriangle and shape2 with X2, Y2, R2 is littleTriangle.)
+* X1_Values: the series of x-coordinate positions of shape 1 across the animation (20 ms between each value) (repeated for shape 2)
+* Y1_Values: the series of y-coordinate positions of shape 1 across the animation (20 ms between each value) (repeated for shape 2)
+* R1_Values: the series of shape 1's orientations (in radians) across the animation (20 ms between each value) (repeated for shape 2)
+
