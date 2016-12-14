@@ -55,3 +55,12 @@ In each dataset folder (OneCharacterData and TwoCharacterData) are the training 
 * Y1_Values: the series of y-coordinate positions of shape 1 across the animation (20 ms between each value) (repeated for shape 2)
 * R1_Values: the series of shape 1's orientations (in radians) across the animation (20 ms between each value) (repeated for shape 2)
 
+## 5. Indiana University Extra Credit Movies
+
+In the Fall of 2016 Katherine Metcalf and Prof. David Leake at Indiana University arranged to offer extra credit to students in Informatics and Computer Science classes in exchange for creating and narrating new movies using the "Heider-Simmel Interactive Theater" online application.
+
+Provided here are 130 animated films from anonymous students, consisting of a title, a short textual narrative, and positional data for each of the three characters and the door over time.
+
+The raw positional data collected from authors is provided here. Our intention is to also provide uniform-rate positional data (via interpolation) to match the format of the files in the Charades-datasets folder. Also, we hope to provide a tool for exporting the postitional data as standard mp4 video files.
+
+
