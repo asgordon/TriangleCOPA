@@ -340,9 +340,9 @@ b. The triangle is excited to see the circle.
 
 49. The circle nods at the triangle? Why?
 (and (nod' E1 C))
-a. The circle disagrees with the triangle.
+a. The circle agrees with the triangle.
 (agree' e2 C x)
-b. The circle agrees with the triangle.
+b. The circle disagrees with the triangle.
 (disagree' e3 C x)
 
 50. The triangle creeps into the house. A circle moves in the corner. The triangle bolts out of the house. Why does the triangle bolt out of the house?
